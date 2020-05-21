@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>quiz</title>
+	<link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <div id="block">
+
+    <div id="pause">
+      <div id="center">
+       <h4 class="color">General knowledge quiz</h4>
+       <p class="color">Each question will carry equal marks</p>
+       <button id="startButton" type="button" style="background-color: #8d6868;"><h2 style="color:antiquewhite;cursor:pointer;"><b>Start now</b></h2></button></div>
+    </div>
+
+    <div id="start" style="display:none;">
+    <div id="question"></div><br><br><br><br>
+    <div class="alloption">     
+        <div class="option" id="1" onclick="button(this)"></div><br>
+        <div class="option" id="2" onclick="button(this)"></div><br> 
+        <div class="option" id="3" onclick="button(this)"></div><br> 
+        <div class="option" id="4" onclick="button(this)"></div><br>       
+    </div>
+    <div id="timer"></div>
+    <div style="font-size : 25px;">Score : <span id="score"></span><span style="color: white;font-size : 26px; background : rgb(3, 104, 3);">/10</span></div>
+</div>
+     <div id="score2" style="display:none;"></div>
+</div>
+<script src="quiz.js"></script>
+</body>
+</html>
+
